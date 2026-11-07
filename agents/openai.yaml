@@ -1,0 +1,14 @@
+interface:
+  display_name: IRA — Inspect Rebuild Applications
+  short_description: Investigate web apps, plan improvements, and verify rebuilds
+  default_prompt: Use $ira to investigate this web app, map the evidence and gaps,
+    and implement and verify the requested features.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
